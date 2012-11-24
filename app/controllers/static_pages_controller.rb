@@ -3,6 +3,7 @@ class StaticPagesController < ApplicationController
   end
 
   def help
+  	@title = "Help"
   end
 
   def about
